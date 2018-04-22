@@ -8,7 +8,7 @@
  */
 ((root) => {
 
-	// Add code here...
+  // Add code here...
 
 })(window);
 ```

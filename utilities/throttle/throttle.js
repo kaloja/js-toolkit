@@ -1,11 +1,12 @@
 /**
- * Creates a throttled function that only invokes the `callback` at most once
- * per every `limit` milliseconds.
+ * Creates a throttled function that only invokes the
+ * `callback` at most once per every `limit` milliseconds.
  *
  * @param {Function} callback - Callback function to be executed
  * @param {Number} limit - Limit in milliseconds
  * @return {Function} - The throttled function
  */
+
 const throttle = (callback, limit) => {
   let timer;
   let lastInvokeTime;
