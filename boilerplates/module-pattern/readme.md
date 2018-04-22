@@ -6,6 +6,7 @@
  *
  * @return {Object} - The public API object
  */
+
 const plugin = (() => {
 
   // Variables:

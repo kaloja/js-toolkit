@@ -6,6 +6,7 @@
  *
  * @param {Object} root - Represents a window containing a DOM document
  */
+
 ((root) => {
 
   // Add code here...
@@ -19,6 +20,7 @@
  *
  * @param {Object} root - Represents a window containing a DOM document
  */
+
 (function (root) {
 
     'use strict';
