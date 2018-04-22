@@ -1,1 +1,3 @@
-# A vanilla JavaScript toolkit
+# JS Toolkit
+
+A collection of vanilla JavaScript utility functions and boilerplates.

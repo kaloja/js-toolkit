@@ -1,6 +1,6 @@
 {
   "name": "js-toolkit",
-  "description": "A vanilla JavaScript toolkit.",
+  "description": "A collection of vanilla JavaScript utility functions and boilerplates.",
   "version": "0.0.0",
   "author": "Mattias Haal",
   "repository": {},
