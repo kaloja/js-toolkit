@@ -11,7 +11,7 @@
  */
 
 const throttle = (callback, limit) => {
-  let lastCallTime;
+  let timer;
   let lastInvokeTime;
 
   return function () {
@@ -22,8 +22,8 @@ const throttle = (callback, limit) => {
       callback.apply(context, args);
       lastInvokeTime = Date.now();
     } else {
-      clearTimeout(lastCallTime);
-      lastCallTime = setTimeout(function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
         if ((Date.now() - lastInvokeTime) >= limit) {
           callback.apply(context, args);
           lastInvokeTime = Date.now();
