@@ -7,7 +7,6 @@
  * @param {Number} delay - Delay in milliseconds
  * @return {Function} - The debounce function
  */
-
 const debounce = (callback, delay) => {
   let timer;
 

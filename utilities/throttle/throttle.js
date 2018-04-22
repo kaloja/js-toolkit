@@ -6,7 +6,6 @@
  * @param {Number} limit - Limit in milliseconds
  * @return {Function} - The throttled function
  */
-
 const throttle = (callback, limit) => {
   let timer;
   let lastInvokeTime;
