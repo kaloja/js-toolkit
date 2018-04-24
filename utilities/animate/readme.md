@@ -14,7 +14,6 @@ const animate = (type, element, callback, capture) => {
   const raf = window.requestAnimationFrame;
   let ticking = false;
 
-  // Callback for the event:
   const render = () => {
     if (!ticking) {
       ticking = true;
@@ -22,17 +21,13 @@ const animate = (type, element, callback, capture) => {
     }
   };
 
-  // Animation callback:
   const update = () => {
     if (ticking) {
       callback();
     }
-
-    // Reset the tick, so we can capture the next event:
     ticking = false;
   };
 
-  // Listen for events:
   element.addEventListener(type, render, !!capture);
 };
 ```
